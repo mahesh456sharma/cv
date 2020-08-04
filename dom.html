@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>rahul</p>
+    <p id="ml">mahesh sharma</p>
+    <p class="wl">mahesh kumar</p>
+    <h1> MAHESH SHARMA SOFTWARE DEVELOPER</h1> -->
+    <!-- how to access elements by ID -->
+
+    <!-- <script>
+
+        var a = document.getElementById("ml").innerHTML;
+
+        document.write(a);
+
+    </script> -->
+
+        <!-- how to access elements by Class -->
+
+        <!-- <script>
+
+                var b = document.getElementsByClassName("wl")[0].innerHTML;
+                document.write(b);
+
+        </script> -->
+
+            <!-- how to access elements by Class -->
+            
+            <!-- <script>
+
+                    var tag = document.getElementsByTagName("h1")
+                    document.write(tag);
+
+            </script> -->
+
+            <!-- how to access elements Frist element   -->
+
+            <!-- <script>
+
+                var p = document.querySelector('p').innerHTML;
+                document.write(p);
+            </script> -->
+
+            <h2>Mahesh sharma</h2>
+            <p id="ml">technical </p>
+            <p class="wl"> software</p>
+            <p class="wl"> Engineering</p>
+            <ul><li>Like</li>
+                <li>subscriber</li>
+                <li>Share</li></ul>
+
+                <!-- access childern of a body -->
+
+            <script>
+                
+                var child = document.body.children;
+                console.log(child);
+                
+
+                // add a new child in a body
+
+                var para = document.createElement("h4");
+                var textNode = document.createTextNode("This a new heading ");
+                para.appendChild(textNode);
+                console.log(para);
+                document.body.appendChild(para);
+
+                // how to access first child and last child
+
+                var list = document.querySelector("ul");
+                console.log(list);
+
+                console.log(list.firstChild);
+                console.log(list.lastChild);
+                
+
+                // how to find sibling 
+
+                var firstsibling = ml.nextElementSibling.nextElementSibling;
+                console.log(firstsibling);
+                // how to find parent element 
+                console.log(list.parentNode);
+
+
+            </script>
+</body>
+</html>
